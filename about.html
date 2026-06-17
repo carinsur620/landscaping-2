@@ -8,16 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<script>
-
-const menuToggle = document.getElementById("menu-toggle");
-const navMenu = document.getElementById("nav-menu");
-
-menuToggle.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-});
-
-</script>
 <body>
 
 
@@ -264,6 +254,18 @@ menuToggle.addEventListener("click", () => {
         <p>Phone Number Here</p>
 
     </footer>
+    <script>
+document.addEventListener("DOMContentLoaded", function(){
+
+    const menuToggle = document.getElementById("menu-toggle");
+    const navMenu = document.getElementById("nav-menu");
+
+    menuToggle.addEventListener("click", function(){
+        navMenu.classList.toggle("active");
+    });
+
+});
+</script>
 
 </body>
 </html>
