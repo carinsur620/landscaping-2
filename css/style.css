@@ -70,7 +70,7 @@ nav{
     transition: top 0.10s ease;
     background:rgba(15,23,42,.95);
     backdrop-filter:blur(10px);
-    padding:10px 6%;
+    padding:8px 5%;
     display:flex;
     justify-content:space-between;
     align-items:center;
